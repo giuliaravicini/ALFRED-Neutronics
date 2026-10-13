@@ -21,7 +21,8 @@ ALFRED-Neutronics/
 ├── data/                   # Calculated keff values, temperature perturbations, and control rod steps
 ├── img/                    # Core maps, flux distributions, reactivity plots and burnup plots
 ├── notebooks/              # Main Jupyter Notebook for calculations (core.ipynb)
-└── src/                    # Core Python modules for assemblies and materials
+├── src/                    # Core Python modules for assemblies and materials
+└── thesis/                 # Complete Bachelor's thesis document (PDF)
 ```
 
 ## Requirements
