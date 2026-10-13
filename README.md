@@ -18,10 +18,10 @@ The codebase is designed with a modular structure in Python, orchestrated throug
 ALFRED-Neutronics/
 │
 ├── README.md               # Project documentation
-├── src/                    # Core Python modules for assemblies and materials
-├── notebooks/              # Main Jupyter Notebook for calculations (core.ipynb)
 ├── data/                   # Calculated keff values, temperature perturbations, and control rod steps
-└── img/                    # Core maps, flux distributions, reactivity plots and burnup plots
+├── img/                    # Core maps, flux distributions, reactivity plots and burnup plots
+├── notebooks/              # Main Jupyter Notebook for calculations (core.ipynb)
+└── src/                    # Core Python modules for assemblies and materials
 ```
 
 ## Requirements
@@ -30,5 +30,5 @@ ALFRED-Neutronics/
 - Neutronic transport code / cross-section libraries configured locally
 
 ## Author
-Giulia Ravicini
-engineering Student
+Giulia Ravicini, 
+ Engineering Student
