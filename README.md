@@ -7,7 +7,7 @@ The codebase is designed with a modular structure in Python, orchestrated throug
 
 ## Key Features
 - **Modular Assembly Modeling:** Dedicated Python modules in `src/` (`fuel_inner.py`, `fuel_outer.py`, `control_rods.py`, `safety_rods.py`, `dummy_elements.py`, `materials.py`) defining geometry and material compositions.
-- **Neutronics & Reactivity Calculations:** Implementation of routines to compute effective multiplication factor ($k_{eff}$), Doppler and coolant temperature coefficients, and control rod worth.
+- **Neutronics & Reactivity Calculations:** Implementation of routines to compute effective multiplication factor ($k_{eff}$), Doppler and coolant temperature coefficients, control rod worth, fuel depletion, and isotopic evolution over operational cycles.
 - **Automated Workflow:** Orchestrated via the Jupyter Notebook (`notebooks/core.ipynb`) for end-to-end analysis and plotting.
 - **Numerical Results & Data:** Structured `.csv` results, perturbation data, and burnup steps stored in `data/`.
 - **Data Visualization:** Comprehensive plots for core layouts, flux distributions, reactivity curves and burnup evolution.
